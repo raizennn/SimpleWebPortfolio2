@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .w3-row-padding img {margin-bottom: 12px}
+.w3-sidebar {width: 120px;background: #0000;}
+#main {margin-left: 120px}
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+  body {
+  background-image: url('white.jpg');
+}
+.typewriter p {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end) both, 
+    blink-caret .75s step-end infinite both;
+  animation-delay: 1s;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: whitesmoke; }
+}
+
+@keyframes fadeInImg {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fadeInImg {
+  animation-name: fadeInImg;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+</style>
+</head>
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="aboutMe.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="resume.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>RESUME/CV</p>
+  </a>
+  <a href="project.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>CONTACTS</p>
+  </a>
+</nav>
+
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="aboutMe.html" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="resume.html" class="w3-bar-item w3-button" class ="active" style="width:25% !important">RESUME/CV</a>
+    <a href="project.html" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+    <a href="contact.html" class="w3-bar-item w3-button" style="width:25% !important">CONTACTS</a>
+  </div>
+</div>
+
+<body class="w3-white">
+
+<div class="w3-content w3-margin-top" style="width:100%">
+<body>
+
+<div style="padding-left:16px">
+  <h1 style="font-family: Algerian; text-align: center; font-size: 80px; padding-bottom: 100px;"><font color="gray">About Me</h1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img class="fadeInImg" src="profile1.png" alt="Man in a white background" style="width:220px; height:190px; float: left;padding-inline: 15px;">
+<strong>
+  <div class="typewriter">
+    <p style="text-align: left; font-family: Century Gothic; font-size: 20px;"><font color="gray">Name: Christian Geordel A. de Guzman</p>
+  <div class="typewriter"></div>
+    <p style="font-family: Century Gothic; font-size: 20px;">Age: 19</p>
+  <div class="typewriter"></div>
+    <p style="font-family: Century Gothic; font-size: 20px;">Birthdate: January 15, 2004</p></div>
+  <div class="typewriter">
+    <p style="font-family: Century Gothic; font-size: 20px;font-size: 20px;">Address: Gulod 2 St., Brgy. San Pedro</p></div>
+      <div class="typewriter">
+    <p style="font-family: Century Gothic; font-size: 20px;font-size: 20px;">General Tinio(Papaya), Nueva Ecija</p></div>
+  <div class="typewriter">
+    <p style="font-family: Century Gothic; font-size: 20px;">Hobbies: Playing Video Games, & Watching TV Series</p></div>
+  <div class="typewriter">
+    <p style="font-family: Century Gothic; font-size: 20px;">Interests: Animations, Game Development, Sports</p>
+  </div>
+</strong>
+
+</body>
+</html>
